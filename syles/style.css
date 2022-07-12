@@ -1,0 +1,106 @@
+body {
+    text-align: center;
+    background: black;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple;
+
+}
+
+
+.square {
+   
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border: 1px solid #2D0649;
+    display: inline-block;
+
+}
+
+.square:hover {
+    background-color: #6A0DAD;
+
+}
+
+
+
+.o {
+
+    position: relative;
+}
+
+.x {
+
+    position: relative;
+}
+
+.o:after {
+    position: absolute;
+    content: "\1F525";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x:after {
+    position: absolute;
+    content: "\1F9CA";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
+
+#restart {
+    margin-top: 15px;
+    position: relative;
+    background-color: purple;
+    min-width: 150px;
+    width: 10vw;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    border-radius: 12px;
+
+}
+
+#restart:hover {
+    opacity: 0.6;
+    border-radius: 0px;
+    transition: 0.5s;
+}
+
+
+.score {
+color: purple;
+   
+
+}
+
+p {
+    font-size: 25px;
+    display: inline;
+    margin: 20px;
+}
+
+.stage {
+    margin-top: 50px;
+}
