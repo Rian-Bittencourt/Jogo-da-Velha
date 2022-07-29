@@ -8,4 +8,4 @@ Dentro do Javascript possui uma Array simulando o mesmo tabuleiro.
 
 Oque foi Treinado?
 Utilização de Arrays e Loop.
-Simplificação e Otimização de If e Else.
+Melhores usos de If e Else.
